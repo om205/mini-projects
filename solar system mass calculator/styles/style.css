@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(../images/galaxy.gif);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-family: Montserrat, serif;
+    justify-content: center;
+}
+header{
+    text-align: center;
+}
+h1{
+    margin: 50px;
+}
+main{
+    align-self: center;
+    background-color: #8080803a;
+    width: 80%;
+}
+input,select,button{
+    box-sizing: border-box;
+    color: grey;
+    height: 40px;
+    margin: 20px 0;
+    padding: 10px;
+}
+input{
+    color: black;
+    width: 200px;
+}
+select{
+    border-radius: 4px;
+    width: 160px;
+}
+button{
+    background-color: grey;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-weight: bolder;
+    width: 130px;
+}
+.message{
+    align-items: center;
+    background-color: #80808070;
+    display: grid;
+    height: 50px;
+    justify-content: center;
+    margin:30px auto;
+    width: 40%;
+}
+.selected{
+    align-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    display: none;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    padding: 50px;
+}
+.planet-image{
+    height: 300px;
+}
+#output {
+    background-color: #80808070;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    margin: 50px;
+    padding: 30px;
+    text-align: center;
+    width: 400px;
+}
+.weight {
+    align-items: center;
+    background-color: #9692925d;
+    border-radius: 100%;
+    box-sizing: border-box;
+    display: flex;
+    font-weight: bolder;
+    height: 100px;
+    justify-content: center;
+    margin: 10px auto;
+    padding: 20px;
+    width: 100px;
+}
